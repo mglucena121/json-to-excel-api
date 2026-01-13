@@ -89,7 +89,7 @@ class MainWindow(QWidget):
 
         # Valores padrão úteis
         self.url_input.setText(
-            "http://maispetoficial.intelite.com.br:3002/api/Dependents/relatorioAtivas?access_token=jmwlJyJQ6n4aW8EbgpNUVnsQolkvIkePH1G8Wc7jYG95ZVyUB4NZbhheFXkyZlai"
+            "http://maispetoficial.intelite.com.br:3002/api/Dependents/relatorioAtivas"
         )
         self.path_input.setText(str(Path.cwd() / "dados.xlsx"))
 
